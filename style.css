@@ -1,0 +1,133 @@
+*{margin:0; }
+
+body {background-color:#4B367C; font-family: Inconsolata, sans-serif; height:35vw}
+
+
+
+#banner{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background-color:white;
+  border-radius:8px;
+  margin:80px auto 0px auto;
+  font-family:'Press Start 2P';
+  padding:10px;
+  max-width:350px;
+}
+
+#logo {padding:7px; }
+
+#buttons {
+  display:flex;
+  justify-content:center;
+  max-width:380px;
+  margin:auto;
+  
+
+}
+
+.theButtons {
+  background-color:white;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height:40px;
+  flex-basis:116px;
+  border-radius:5px;
+  font-family:'Press Start 2P';
+  margin:10px 5px 10px 5px;
+  font-size:.8em;
+  border-style:double;
+  border-color:black;
+}
+
+.theButtons:hover {
+  cursor:pointer;
+  background-color:lightgrey;
+}
+
+.buttonActive{
+ color:orange;
+  border-color:orange;
+}
+
+.buttonActive:hover{
+  background-color:white;
+  cursor: auto;
+}
+
+#streamers {
+  display:flex;
+  flex-flow:column;
+  justify-content:center;
+  align-content:center;
+  margin:0px auto 5px auto;
+  
+  max-width:370px;
+  border-radius:15px;
+}
+
+.user{
+  display:flex;
+  flex-wrap:wrap;
+  align-items:center;
+  padding:5px 10px;
+  border-radius:4px;
+  margin-bottom:3px;
+  background-color:white;
+  
+}
+
+.user:hover{
+  border:solid;
+  border-color:orange; 
+  border-width:1px;
+}
+
+.user a {
+  margin-left:5px;
+  text-decoration:none;
+  color: #59379C;
+}
+
+.user p{
+  margin-left:auto;
+  padding: 5px;
+}
+
+.user img {
+  height:50px;
+
+  border-radius:50%;
+}
+
+#createdBy{
+  display:flex;
+  justify-content:center;
+  margin:20px;  
+}
+
+#createdBy a{
+  color:white;
+  text-decoration:none;
+  text-align:center;
+  
+}
+
+
+@media (max-width: 375px) {
+  #banner {
+    margin:10px 5px 5px 5px;   
+  }
+  
+
+  
+  .theButtons {
+    margin:3px;
+  }
+    #streamers {
+    margin:5px 5px 0px 5px; 
+  }
+ 
+}
